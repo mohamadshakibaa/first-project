@@ -1,5 +1,5 @@
 def get_valid_input(start , end):
-    """Get a valid integer input from the user between start and end (inclusive)."""
+    """ Get a valid integer input from the user between start and end (inclusive)."""
     
     print(" === The game starts with 100 points. You lose 5 points for each missed chance. ===")
     while True:

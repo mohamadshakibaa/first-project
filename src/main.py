@@ -11,7 +11,7 @@ def main():
     while True:
         guess_number = get_valid_input(1, 100)
         if guess_number == random_num:
-            print(f"Congratulations!! Your guess number is correct. Your finall score: {score.get_score()}")
+            print(f"Congratulations!! Your guess number is correct. Your finall score: {score.get_score()} ")
             break
         else :
             hint = provide_hint(guess_number, random_num)
